@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  loadWeb
+//
+//  Created by 申帅 on 16/3/23.
+//  Copyright © 2016年 申帅. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import "RootViewController.h"
+#import "MoreViewController.h"
+#import "AppDelegate.h"
+#import "HistoryModel.h"
+
+
+
+
+
+
+
+
+#define AppDelegateInstance ((AppDelegate *)[UIApplication sharedApplication].delegate)
+#define kWidth [UIScreen mainScreen].bounds.size.width
+#define kHeight [UIScreen mainScreen].bounds.size.height
+
+#endif
